@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5BxEyF+jD74eEoA1RZGPG85gU+EvsmrG6zLoORveqYQ5NKVdB0EAT59IP1VRmJ7Wb4GZjmqn8Wi7HsGbiyhIRQ==",
+  "success": true,
+  "projectFilePath": "/home/ricardo/devlopment/xpert.NET/src/xpert-domain/xpert-domain.csproj",
+  "expectedPackageFiles": [
+    "/home/ricardo/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.5/microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

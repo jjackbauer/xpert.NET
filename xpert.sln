@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5BDBF86-36F7-4E4D-B5E4-0FDD8CEEE833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpert-api", "src\xpert-api\xpert-api.csproj", "{C417C96A-626A-4197-87AA-4F6B1DC356D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpert-web", "src\xpert-web\xpert-web.csproj", "{2487384E-AC58-4CD6-A0C3-5863E6066443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpert-domain", "src\xpert-domain\xpert-domain.csproj", "{1B4633FB-8F67-4475-9DBB-BF1525614B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2D4FEEE6-0B00-4EFB-A904-F3C96C950B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpert-unit-tests", "test\xpert-unit-tests\xpert-unit-tests.csproj", "{04A025C9-AC5A-4459-9DB1-E2E3908181B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xpert-integration-tests", "test\xpert-integration-tests\xpert-integration-tests.csproj", "{8A930553-485A-4B85-A7C9-B7FA4472FE25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C417C96A-626A-4197-87AA-4F6B1DC356D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C417C96A-626A-4197-87AA-4F6B1DC356D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C417C96A-626A-4197-87AA-4F6B1DC356D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C417C96A-626A-4197-87AA-4F6B1DC356D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2487384E-AC58-4CD6-A0C3-5863E6066443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2487384E-AC58-4CD6-A0C3-5863E6066443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2487384E-AC58-4CD6-A0C3-5863E6066443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2487384E-AC58-4CD6-A0C3-5863E6066443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4633FB-8F67-4475-9DBB-BF1525614B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4633FB-8F67-4475-9DBB-BF1525614B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4633FB-8F67-4475-9DBB-BF1525614B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4633FB-8F67-4475-9DBB-BF1525614B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A025C9-AC5A-4459-9DB1-E2E3908181B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A025C9-AC5A-4459-9DB1-E2E3908181B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A025C9-AC5A-4459-9DB1-E2E3908181B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A025C9-AC5A-4459-9DB1-E2E3908181B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A930553-485A-4B85-A7C9-B7FA4472FE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A930553-485A-4B85-A7C9-B7FA4472FE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A930553-485A-4B85-A7C9-B7FA4472FE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A930553-485A-4B85-A7C9-B7FA4472FE25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C417C96A-626A-4197-87AA-4F6B1DC356D7} = {E5BDBF86-36F7-4E4D-B5E4-0FDD8CEEE833}
+		{2487384E-AC58-4CD6-A0C3-5863E6066443} = {E5BDBF86-36F7-4E4D-B5E4-0FDD8CEEE833}
+		{1B4633FB-8F67-4475-9DBB-BF1525614B52} = {E5BDBF86-36F7-4E4D-B5E4-0FDD8CEEE833}
+		{04A025C9-AC5A-4459-9DB1-E2E3908181B8} = {2D4FEEE6-0B00-4EFB-A904-F3C96C950B70}
+		{8A930553-485A-4B85-A7C9-B7FA4472FE25} = {2D4FEEE6-0B00-4EFB-A904-F3C96C950B70}
+	EndGlobalSection
+EndGlobal
