@@ -1,5 +1,3 @@
-using System.Net.NetworkInformation;
-
 namespace xpert_domain;
 
 public abstract class BaseObject
